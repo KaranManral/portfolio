@@ -28,6 +28,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "http://karanmanral.github.io/portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
