@@ -27,7 +27,7 @@ function App() {
   if (!isDesktop) {
     return (
       <div className="container-md shadow-lg">
-        <Header />
+        <Header isMobile={true} />
         <Photo />
         <Title />
         <Designation />
@@ -42,7 +42,7 @@ function App() {
   } else {
     return (
       <div className="container-md shadow-lg">
-        <Header />
+        <Header isMobile={false} />
         <div className="row">
           <div className="col-4" id="leftPanel">
             <Photo />

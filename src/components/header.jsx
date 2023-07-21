@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   function goToModule(event, moduleID) {
     event.preventDefault();
     document.getElementById(moduleID).scrollIntoView({
@@ -30,7 +30,14 @@ function Header() {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item mx-3">
-            <a className="nav-link" href="/">
+            <a
+              className="nav-link"
+              href="#!"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo(0, 0);
+              }}
+            >
               Home
             </a>
           </li>
@@ -50,8 +57,11 @@ function Header() {
               className="nav-link"
               href="#!"
               onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo(0, document.body.scrollHeight);
+                if (props.isMobile) goToModule(e, "education");
+                else {
+                  e.preventDefault();
+                  window.scrollTo(0, document.body.scrollHeight);
+                }
               }}
             >
               Education
