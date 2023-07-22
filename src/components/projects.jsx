@@ -2,6 +2,7 @@ import React from "react";
 import { FiLink2 } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import TWS from "../images/tws.svg";
+import TMS from "../images/tms.webp";
 import CP from "../images/cp.webp";
 import DUSC from "../images/dusc.webp";
 import TTT from "../images/ttt.webp";
@@ -78,6 +79,41 @@ function Projects() {
                   </a>
                   <a
                     href="https://github.com/KaranManral/Canteen_Project"
+                    className="card-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card mb-3 shadow-sm">
+          <div className="row g-0">
+            <div className="col-md-4 projImgContainer">
+              <img
+                src={TMS}
+                className="img-fluid rounded-start"
+                alt="Transaction Management System"
+              />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title text-muted">
+                  Transaction Management System
+                </h5>
+                <p className="card-text text-muted">
+                  This is slso an academic project demonstrating a Transaction
+                  Management System which is a module of Banking Management
+                  System. It provides demonstration of features like
+                  Deposit,Withdraw,Transfer money and see profile and
+                  transactions of a user.
+                </p>
+                <div className="cardlink">
+                  <a
+                    href="https://github.com/KaranManral/Transaction_Management_System"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
