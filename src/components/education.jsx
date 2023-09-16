@@ -4,7 +4,7 @@ function Education() {
   return (
     <div className="row" id="education">
       <div className="row my-4">
-        <div className="col-8" id="eduHead">
+        <div className="col-12" id="eduHead">
           EDUCATION
         </div>
       </div>

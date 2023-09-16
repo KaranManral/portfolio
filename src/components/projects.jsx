@@ -8,6 +8,7 @@ import DUSC from "../images/dusc.webp";
 import TTT from "../images/ttt.webp";
 import NP from "../images/np.webp";
 import MCR from "../images/mcr.webp";
+import PP from "../images/pp.webp";
 
 function Projects() {
   return (
@@ -181,7 +182,7 @@ function Projects() {
                 </p>
                 <div className="cardlink">
                   <a
-                    href="https://galaxy.store/TicTac2o"
+                    href="https://play.google.com/store/apps/details?id=com.trywebsoft.tictactoe"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -243,7 +244,39 @@ function Projects() {
                 </p>
                 <div className="cardlink">
                   <a
-                    href="https://galaxy.store/Addends"
+                    href="https://play.google.com/store/apps/details?id=com.trywebsoft.mathclashroyale"
+                    className="card-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiLink2 />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card mb-3 shadow-sm">
+          <div className="row g-0">
+            <div className="col-md-4 projImgContainer">
+              <img
+                src={PP}
+                className="img-fluid rounded-start"
+                alt="Pixel Pulse"
+              />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title text-muted">Pixel Pulse</h5>
+                <p className="card-text text-muted">
+                  Want a quick and efficient solution to compress and resize
+                  your images without compromising quality? Look no further!
+                  Pixel Pulse is here to streamline your image management
+                  experience. Pixel Pulse is made on React Native Framework.
+                </p>
+                <div className="cardlink">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.trywebsoft.pixelpulse"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
