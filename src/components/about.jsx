@@ -5,12 +5,13 @@ function About() {
     <div className="row" id="about">
       <div className="col-11">
         <p className="text-muted">
-          Hey, My name is Karan Singh Manral. I am a full stack web developer
-          proficient in both FrontEnd and BackEnd Technologies.Skilled In
-          Developing Websites, Good Problem-Solving And Debugging Skills With A
-          Passion For Learning Emerging Technologies. I have worked on several
-          web based projects both individually and in a team, earning lots of
-          new skills and learnings.
+          Dedicated full stack software developer proficient in both front end
+          and back end technologies.Skilled in developing and managing
+          websites,creating mobile applications, good problem-solving And
+          debugging skills sith a passion for learning emerging technologies and
+          softwares, also have worked on several real life web based projects
+          both individually and in a team. Eager to join a new team of people,
+          and work on more futuristic projects.
         </p>
       </div>
     </div>
