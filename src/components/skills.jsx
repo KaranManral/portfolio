@@ -33,12 +33,22 @@ function Skills(props) {
           </div>
         </div>
         <div className="row my-1">
+          <div className="col text-muted">JavaScript</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
           <div className="col text-muted">NodeJS</div>
           <div className="col">
             <FaCircle />
             <FaCircle />
             <FaCircle />
-            <FaRegCircle />
+            <FaCircle />
             <FaRegCircle />
           </div>
         </div>
@@ -63,36 +73,6 @@ function Skills(props) {
           </div>
         </div>
         <div className="row my-1">
-          <div className="col text-muted">JavaScript</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">ReactJS</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">PHP</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
           <div className="col text-muted">JAVA</div>
           <div className="col">
             <FaCircle />
@@ -107,8 +87,28 @@ function Skills(props) {
           <div className="col">
             <FaCircle />
             <FaCircle />
+            <FaCircle />
             <FaRegCircle />
             <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">PHP</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaRegCircle />
+            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">ReactJS</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
             <FaRegCircle />
           </div>
         </div>

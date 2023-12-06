@@ -19,7 +19,7 @@ function Designation() {
           backgroundColor: "white",
         }}
       >
-        Full Stack Developer
+        Software Developer
       </span>
     </div>
   );

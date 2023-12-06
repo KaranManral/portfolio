@@ -65,8 +65,8 @@ function Projects() {
               <div className="card-body">
                 <h5 className="card-title text-muted">Canteen Project</h5>
                 <p className="card-text text-muted">
-                  This is an academic project demonstrating a system online food
-                  ordering from college canteen. This project uses Node.JS
+                  This is an academic project demonstrating a online food
+                  ordering system from college canteen. This project uses Node.JS
                   Express libraries to power backend technology.
                 </p>
                 <div className="cardlink">
