@@ -6,7 +6,7 @@ import { FaGlobe } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="row p-5" id="contact">
+    <div className="row" id="contact">
       <div className="row my-2">
         <div className="col" id="contactHead">
           CONTACT

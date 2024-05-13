@@ -18,7 +18,7 @@ import Projects from "./components/projects";
 
 function App() {
   const { pathname } = useLocation();
-  const isDesktop = useMediaQuery("(min-width: 576px)");
+  const isDesktop = useMediaQuery("(min-width: 993px)");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,11 +32,11 @@ function App() {
         <Title />
         <Designation />
         <About />
-        <Education />
+        <Contact />
         <Experience />
         <Skills isMobile={true} />
-        <Contact />
         <Projects />
+        <Education />
       </div>
     );
   } else {
@@ -44,12 +44,12 @@ function App() {
       <div className="container-md shadow-lg">
         <Header isMobile={false} />
         <div className="row">
-          <div className="col-4" id="leftPanel">
+          <div className="col-5" id="leftPanel">
             <Photo />
             <Contact />
             <Education />
           </div>
-          <div className="col-8" id="rightPanel">
+          <div className="col-7" id="rightPanel">
             <Title />
             <Designation />
             <About />

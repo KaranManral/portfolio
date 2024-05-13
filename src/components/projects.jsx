@@ -24,7 +24,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={TWS}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Try Web Soft"
               />
             </div>
@@ -57,7 +57,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={CP}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Canteen Project"
               />
             </div>
@@ -96,7 +96,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={TMS}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Transaction Management System"
               />
             </div>
@@ -129,7 +129,7 @@ function Projects() {
         <div className="card mb-3 shadow-sm">
           <div className="row g-0">
             <div className="col-md-4 projImgContainer">
-              <img src={DUSC} className="img-fluid rounded-start" alt="DUSC" />
+              <img src={DUSC} className="img-fluid " alt="DUSC" />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -169,7 +169,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={TTT}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Tic Tac Toe"
               />
             </div>
@@ -199,7 +199,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={NP}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Puzzle 2D"
               />
             </div>
@@ -230,7 +230,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={MCR}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Math Clash Royale"
               />
             </div>
@@ -261,7 +261,7 @@ function Projects() {
             <div className="col-md-4 projImgContainer">
               <img
                 src={PP}
-                className="img-fluid rounded-start"
+                className="img-fluid "
                 alt="Pixel Pulse"
               />
             </div>
