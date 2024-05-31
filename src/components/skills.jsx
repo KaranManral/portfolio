@@ -12,57 +12,7 @@ function Skills(props) {
         </div>
       </div>
       <div className="row">
-        <div className="row my-1">
-          <div className="col text-muted">HTML</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">CSS</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">JavaScript</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">NodeJS</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">SQL</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
+      <div className="row my-1">
           <div className="col text-muted">C++</div>
           <div className="col">
             <FaCircle />
@@ -83,27 +33,57 @@ function Skills(props) {
           </div>
         </div>
         <div className="row my-1">
+          <div className="col text-muted">JavaScript</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">Node.js</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">React.js</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">Next.js</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
           <div className="col text-muted">Python</div>
           <div className="col">
             <FaCircle />
             <FaCircle />
             <FaCircle />
-            <FaRegCircle />
+            <FaCircle />
             <FaRegCircle />
           </div>
         </div>
         <div className="row my-1">
-          <div className="col text-muted">PHP</div>
-          <div className="col">
-            <FaCircle />
-            <FaCircle />
-            <FaCircle />
-            <FaRegCircle />
-            <FaRegCircle />
-          </div>
-        </div>
-        <div className="row my-1">
-          <div className="col text-muted">ReactJS</div>
+          <div className="col text-muted">SQL</div>
           <div className="col">
             <FaCircle />
             <FaCircle />
@@ -113,7 +93,17 @@ function Skills(props) {
           </div>
         </div>
         <div className="row my-1">
-          <div className="col text-muted">Next.JS</div>
+          <div className="col text-muted">MongoDB</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaRegCircle />
+            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">Rest API</div>
           <div className="col">
             <FaCircle />
             <FaCircle />
@@ -123,13 +113,23 @@ function Skills(props) {
           </div>
         </div>
         <div className="row my-1">
-          <div className="col text-muted">React Native</div>
+          <div className="col text-muted">CSS</div>
           <div className="col">
             <FaCircle />
             <FaCircle />
             <FaCircle />
+            <FaCircle />
             <FaRegCircle />
-            <FaRegCircle />
+          </div>
+        </div>
+        <div className="row my-1">
+          <div className="col text-muted">HTML</div>
+          <div className="col">
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
+            <FaCircle />
           </div>
         </div>
       </div>

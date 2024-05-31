@@ -71,7 +71,7 @@ function Projects() {
                 </p>
                 <div className="cardlink">
                   <a
-                    href="https://kmv-canteen-project.onrender.com/"
+                    href="https://canteen-project-sage.vercel.app/"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -79,7 +79,7 @@ function Projects() {
                     <FiLink2 />
                   </a>
                   <a
-                    href="https://github.com/KaranManral/Canteen_Project"
+                    href="https://github.com/KaranManral/Canteen_Project/tree/dev"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
