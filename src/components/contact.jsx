@@ -77,7 +77,7 @@ function Contact() {
         <div className="col-10">
           <a
             className="text-muted"
-            href="https://trywebsoft.com"
+            href="https://trywebsoft-5zaipspc5-karanmanrals-projects.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}

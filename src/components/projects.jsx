@@ -40,7 +40,7 @@ function Projects() {
                 </p>
                 <div className="cardlink">
                   <a
-                    href="https://trywebsoft.com"
+                    href="https://trywebsoft-5zaipspc5-karanmanrals-projects.vercel.app/"
                     className="card-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -143,14 +143,6 @@ function Projects() {
                   section for courses.
                 </p>
                 <div className="cardlink">
-                  <a
-                    href="https://dusccwp.000webhostapp.com/"
-                    className="card-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiLink2 />
-                  </a>
                   <a
                     href="https://github.com/KaranManral/CollegeProject_Web-Development"
                     className="card-link"
